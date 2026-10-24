@@ -1,0 +1,120 @@
+{
+  "pending": [
+    {
+      "mrn": "MRN-2001",
+      "line": "A-01",
+      "totalQty": 150,
+      "unit": "Pcs",
+      "requestedBy": "Rahim Uddin",
+      "requestedAt": "2026-10-24T11:15:00"
+    },
+    {
+      "mrn": "MRN-2002",
+      "line": "B-03",
+      "totalQty": 300,
+      "unit": "Pcs",
+      "requestedBy": "Karim Ahmed",
+      "requestedAt": "2026-10-24T11:30:00"
+    },
+    {
+      "mrn": "MRN-2003",
+      "line": "C-07",
+      "totalQty": 80,
+      "unit": "Roll",
+      "requestedBy": "Hasan Ali",
+      "requestedAt": "2026-10-24T11:45:00"
+    },
+    {
+      "mrn": "MRN-2011",
+      "line": "A-12",
+      "totalQty": 200,
+      "unit": "Yard",
+      "requestedBy": "Nusrat Jahan",
+      "requestedAt": "2026-10-24T11:52:00"
+    },
+    {
+      "mrn": "MRN-2015",
+      "line": "D-02",
+      "totalQty": 500,
+      "unit": "Pcs",
+      "requestedBy": "Shahidul Islam",
+      "requestedAt": "2026-10-24T11:57:00"
+    }
+  ],
+  "inProgress": [
+    {
+      "mrn": "MRN-2006",
+      "line": "A-05",
+      "totalQty": 1000,
+      "unit": "Pcs",
+      "assignedTo": "Abdul Mannan",
+      "startedAt": "2026-10-24T11:35:00"
+    },
+    {
+      "mrn": "MRN-2007",
+      "line": "B-08",
+      "totalQty": 120,
+      "unit": "Pcs",
+      "assignedTo": "Mohammad Selim",
+      "startedAt": "2026-10-24T11:50:00"
+    },
+    {
+      "mrn": "MRN-2012",
+      "line": "C-01",
+      "totalQty": 250,
+      "unit": "Yard",
+      "assignedTo": "Farhana Yasmin",
+      "startedAt": "2026-10-24T11:20:00"
+    },
+    {
+      "mrn": "MRN-2013",
+      "line": "D-04",
+      "totalQty": 90,
+      "unit": "Roll",
+      "assignedTo": "Jahangir Alam",
+      "startedAt": "2026-10-24T11:55:00"
+    }
+  ],
+  "waiting": [
+    {
+      "mrn": "MRN-2008",
+      "line": "A-09",
+      "totalQty": 400,
+      "unit": "Pcs",
+      "completedBy": "Abdul Mannan",
+      "waitingSince": "2026-10-24T11:00:00",
+      "rack": "R-12",
+      "contactPerson": "Mr. Rafiq (Ext. 204)"
+    },
+    {
+      "mrn": "MRN-2009",
+      "line": "B-02",
+      "totalQty": 60,
+      "unit": "Roll",
+      "completedBy": "Karim Ahmed",
+      "waitingSince": "2026-10-24T11:25:00",
+      "rack": "R-05",
+      "contactPerson": "Ms. Salma (Ext. 118)"
+    },
+    {
+      "mrn": "MRN-2010",
+      "line": "C-06",
+      "totalQty": 900,
+      "unit": "Pcs",
+      "completedBy": "Mohammad Selim",
+      "waitingSince": "2026-10-24T11:55:00",
+      "rack": "R-22",
+      "contactPerson": "Mr. Jamal (Ext. 310)"
+    },
+    {
+      "mrn": "MRN-2014",
+      "line": "D-11",
+      "totalQty": 1500,
+      "unit": "Pcs",
+      "completedBy": "Shirin Akter",
+      "waitingSince": "2026-10-24T11:40:00",
+      "rack": "R-08",
+      "contactPerson": "Mr. Nasir (Ext. 225)"
+    }
+  ]
+}
